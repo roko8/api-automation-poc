@@ -1,22 +1,20 @@
 {
   "name": "api-automation-poc",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Proof of Concept for API Automation using TypeScript",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@types/crypto-js": "^4.2.2",
-    "@types/node": "^20.14.10",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.5.3"
+    "start": "ts-node src/index.ts"
   },
   "dependencies": {
-    "axios": "^1.7.2",
-    "crypto-js": "^4.2.0"
-  }
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "author": "Roko",
+  "license": "ISC"
 }
