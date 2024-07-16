@@ -1,0 +1,16 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "testuser",
+        "password": "testpassword"
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "description": "Sample action for authenticated user"
+      }
+    ]
+  }
+
